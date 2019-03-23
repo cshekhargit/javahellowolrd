@@ -1,7 +1,7 @@
 steps:
 - name: "gcr.io/cloud-builders/gradle"
   args:
-  - package
+  - jar
 artifacts:
   objects:
     location: "gs://${_BUCKET}/"
